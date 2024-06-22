@@ -74,7 +74,7 @@ const MainTitle = styled.div`
 
 const ComingSoon = () => {
   return (
-    <WrapLoader className=" d-flex align-content-center align-items-center">
+    <WrapLoader className=" d-flex align-content-center align-items-center loaders">
       <div className="container mx-auto  mb-5">
         <IconMain className="iconMain">
           <Image
