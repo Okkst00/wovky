@@ -6,7 +6,7 @@ import ComingSoon from "./components/comingSoon";
 
 export const metadata: Metadata = {
   title: "Wovky",
-  description: "Powerfull Web & UI UX Developer",
+  description: "Favorable Web & UI UX Developer",
 };
 
 export default function Home() {
