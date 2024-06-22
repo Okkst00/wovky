@@ -1,0 +1,32 @@
+.notFound .btn-show {
+  background: -webkit-linear-gradient(
+    right,
+    #7816f5 0%,
+    #540ab6 70%,
+    #2b0062 100%
+  );
+  color: white;
+  text-decoration: none;
+  box-shadow: 0px 8px 19px 5px rgba(2, 111, 236, 0.2);
+}
+.notFound .btn-show:hover {
+  opacity: 0.8;
+  color: white;
+  text-decoration: none;
+}
+
+.notFound .notFoundTitle {
+  font-size: 45px;
+}
+
+@media (max-width: 768px) {
+  .notFound .notFoundTitle {
+    font-size: 42px;
+  }
+}
+
+@media (max-width: 500px) {
+  .notFound .notFoundTitle {
+    font-size: 32px;
+  }
+}

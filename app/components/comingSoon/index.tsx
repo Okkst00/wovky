@@ -53,6 +53,13 @@ const IconType = styled.div`
   transform: translateX(-50%);
 `;
 
+const IconMain = styled.div`
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+`;
+
 const MainTitle = styled.div`
   font-size: 48px;
 
@@ -68,14 +75,16 @@ const MainTitle = styled.div`
 const ComingSoon = () => {
   return (
     <WrapLoader className=" d-flex align-content-center align-items-center">
-      <div className="container mx-auto pb-5 mb-5">
-        <Image
-          className="mx-auto d-flex justify-content-center mb-3"
-          src={"/images/icon-main.png"}
-          width={70}
-          height={70}
-          alt="image"
-        ></Image>
+      <div className="container mx-auto  mb-5">
+        <IconMain className="iconMain">
+          <Image
+            className="mx-auto d-flex justify-content-center"
+            src={"/images/icon-main.png"}
+            width={70}
+            height={70}
+            alt="image"
+          ></Image>
+        </IconMain>
         <div className="row justify-content-center mx-auto">
           <div className="col text-center">
             <MainTitle className=" fw-bold mb-4">Coming Soon...</MainTitle>

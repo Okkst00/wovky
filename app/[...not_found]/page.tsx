@@ -1,7 +1,8 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import Head from "next/head";
-// import "./not-found.css"; // Uncomment if you have CSS
+import "./not-found.css"; // Uncomment if you have CSS
+import Loader from "../components/Loader";
 
 export const metadata: Metadata = {
   title: "Wovky • Not Found",
@@ -21,7 +22,10 @@ export default function NotFound() {
           style={{ height: "100vh" }}
         >
           <div className="col text-center align-items-center">
-            <h1 className=" text-white">Eitss Page Not Found!</h1>
+            <Loader />
+            <h1 className="notFoundTitle text-black fw-bold pb-3">
+              Page Not Found!
+            </h1>
             <div className=" mt-5">
               <Link
                 className=" btn-show text-center px-5 py-3 rounded-5"
