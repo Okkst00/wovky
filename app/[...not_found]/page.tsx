@@ -6,7 +6,7 @@ import Loader from "../components/Loader";
 
 export const metadata: Metadata = {
   title: "Wovky • Not Found",
-  description: "Powerful Web & UI UX Developer",
+  description: "Favorable Web & UI UX Developer",
 };
 
 export default function NotFound() {
