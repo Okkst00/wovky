@@ -31,10 +31,13 @@ const Footer: React.FC = () => {
     <footer css={footerStyle}>
       <div className="container">
         <div className="row">
-          <div className="col-md-12">
+          <div className="col col-6">
             <p className="text-muted">
-              &copy; {new Date().getFullYear()} My Company. All rights reserved.
+              &copy; {new Date().getFullYear()} Wovky
             </p>
+          </div>
+          <div className="col col-6">
+            <p className="text-muted text-end">By Okkyst</p>
           </div>
         </div>
       </div>

@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "image": "/images/portfolio3.webp",
+    "title": "Portfolio Website",
+    "category": "Website",
+    "project": "Self Project",
+    "env": "Production"
+  },
+  {
+    "id": 2,
+    "image": "/images/portfolio.webp",
+    "title": "Front End Landing Page",
+    "category": "Front End",
+    "project": "Self Project",
+    "env": "Development"
+  },
+  {
+    "id": 3,
+    "image": "/images/portfolio1.webp",
+    "title": "Front End Landing Page",
+    "category": "Front End",
+    "project": "Self Project",
+    "env": "Development"
+  }
+]
